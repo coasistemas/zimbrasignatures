@@ -2,8 +2,7 @@
 
 path="/opt/zimbra/bin"
 
-#for i in `/opt/zimbra/bin/zmprov -l gaa`
-for i in "catalina.arbelaez" "diana.hincapie" "estefania.mora" "yesica.echavarria"
+for i in `/opt/zimbra/bin/zmprov -l gaa`
 do
 	echo "======Empezando $i============"
 	f=$(mktemp /tmp/ldata.XXXXXX)
